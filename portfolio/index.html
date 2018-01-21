@@ -7,8 +7,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ashwin V Prabhu">
+    <meta name="description" content="Computer Science Graduate Student at
+    UNC Charlotte. Experienced Software Engineer with 3.8 years of
+    Professional Experience.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="shortcut icon" href="img/asterisk.png"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:600">
     <title>Ashwin V Prabhu</title>
   </head>
@@ -22,7 +28,7 @@
           </div>
           <div class="right-header">
             <h1 class="name">Ashwin V Prabhu</h1>
-            <h2 class="career">Software Engineer &amp; Full Stack Developer</h2>
+            <h2 class="career">Software Engineer | Web &amp; Mobile Developer</h2>
             <div class="social-media">
               <a href="mailto:ashwinvprabhu@icloud.com"><i class="fa fa-envelope fa-fw fa-2x"></i></a>
               <a href="https://github.com/prabhuvashwin"><i class="fa fa-github fa-fw fa-2x"></i></a>
@@ -94,6 +100,30 @@
           <br>
         </section>
 
+        <section class="section section-skills">
+          <h2 class="section-title"><i class="fa fa-cogs"></i> Skills</h2>
+          <hr>
+          <div class="item">
+            <div class="details">
+              <ul>
+                <li class="skill">
+                  Programming Languages: C++, C#, Python, R, MySQL, Microsoft SQL Server (MSSQL), Java
+                </li>
+                <li class="skill">
+                  Web Technologies: HTML, CSS, JavaScript, jQuery, XML, JSON
+                </li>
+                <li class="skill">
+                  Libraries/Framework: Bootstrap, REST, .Net, NUnit, Hadoop, MapReduce, WPF, MVVM, MVC
+                </li>
+                <li class="skill">
+                  Tools: Git, Github, TortoiseSVN, Xcode, Visual Studio, PyCharm, Eclipse, RStudio
+                </li>
+              </ul>
+            </div>
+          </div>
+          <br>
+        </section>
+
         <section class="section section-workexperience">
           <h2 class="section-title"><i class="fa fa-briefcase"></i> Work Experience</h2>
           <hr>
@@ -142,61 +172,166 @@
         </section>
 
         <section class="section section-projects">
-          <h2 class="section-title"><i class="fa fa-cog"></i> Projects</h2>
+          <h2 class="section-title"><i class="fa fa-rocket"></i> Projects</h2>
           <hr>
           <div class="project-items">
             <article class="project-item">
-              <img src="img/cat.svg" alt="Cat">
+              <div class="project-heading">
+                <img src="img/js.png" alt="JS">
+                <h3>Concentration - A Memory Game</h3>
+              </div>
+              <hr>
               <div class="project-desc">
-                <h3>Project - 1</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p>Implemented a card matching game which is a client-side single
+                  web page application. The game board consists of 8 pairs of cards
+                  with a different symbol which will be hidden, and the user need to
+                  flip over two similar cards simultaneously to unlock the pair.
+                  Developed using: HTML5, CSS, and JavaScript
                 </p>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/prabhuvashwin/Concentration.git" class="icons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://prabhuvashwin.github.io/concentration" class="icons" target="_blank"><i class="fa fa-play" aria-hidden="true"></i></a>
               </div>
             </article>
             <article class="project-item">
-              <img src="img/lion.svg" alt="Lion">
+              <div class="project-heading">
+                <img src="img/pagerank.png" alt="pagerank">
+                <h3>Page Ranking Algorithm</h3>
+              </div>
+              <hr>
               <div class="project-desc">
-                <h3>Project - 2</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p>Popular pages were identified within a large corpus of hyperlinked
+                  Wikipedia documents using Page Rank algorithm. The algorithm was
+                  implemented using Java, Hadoop MapReduce framework
                 </p>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/prabhuvashwin/PageRank-Algorithm-Implementation.git" class="icons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
               </div>
             </article>
             <article class="project-item">
-              <img src="img/panda.svg" alt="Panda">
+              <div class="project-heading">
+                <img src="img/hadoop.png" alt="hadoop">
+                <h3>A search engine using TF-IDF</h3>
+              </div>
+              <hr>
               <div class="project-desc">
-                <h3>Project - 3</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p>Implemented a document search engine which takes a search string
+                  as input and outputs the names of documents from a large set of
+                  documents relevant to the search query. The relevance is calculated
+                  using TF-IDF. Developed using Java, Hadoop MapReduce
                 </p>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/prabhuvashwin/TFIDF-SearchQuery.git" class="icons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
               </div>
             </article>
             <article class="project-item">
-              <img src="img/panther.svg" alt="Panther">
+              <div class="project-heading">
+                <img src="img/hadoop.png" alt="hadoop">
+                <h3>Credit Card Fraud Detection</h3>
+              </div>
+              <hr>
               <div class="project-desc">
-                <h3>Project - 4</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p>Implemented Naïve Bayes and Logistic Regression algorithms to
+                  classify whether a particular input transaction was fraudulent
+                  or not. Dataset used: Credit card fraud detection dataset from
+                  kaggle. Accuracy: 88% (Naïve Bayes) & 94% (Logistic Regression).
+                  Developed using: Java, Hadoop MapReduce, Eclipse
                 </p>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/prabhuvashwin/Credit-Card-Fraud-Detection.git" class="icons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                <a href="https://fzachariah.github.io/cloudproject/" class="icons" target="_blank"><i class="fa fa-link" aria-hidden="true"></i></a>
               </div>
             </article>
             <article class="project-item">
-              <img src="img/paw.svg" alt="Paw">
+              <div class="project-heading">
+                <img src="img/python3.png" alt="python3">
+                <h3>Go-Back-N &amp; Selective Repeat Protocol Implementation</h3>
+              </div>
+              <hr>
               <div class="project-desc">
-                <h3>Project - 5</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p>Simulated Go-Back-N and Selective Repeat Protocols using an
+                  unreliable channel (i.e., UDP) using python. Simulated checksum
+                  error, packet loss, acknowledgement loss and timeout conditions
+                  for both protocols. Developed using: Python3
                 </p>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/prabhuvashwin/Computer-Networks.git" class="icons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
               </div>
             </article>
             <article class="project-item">
-              <img src="img/wolf.svg" alt="Wolf">
+              <div class="project-heading">
+                <img src="img/csharp.png" alt="C#">
+                <h3>Robot Path Navigation System</h3>
+              </div>
+              <hr>
               <div class="project-desc">
-                <h3>Project - 6</h3>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <p>Implemented LRTA* algorithm to determine the path to the goal
+                  from any random starting point in the state space. The entire
+                  state space is not visible to the robot (only nodes with direct
+                  access are visible). Developed using C#, Visual Studio
                 </p>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/prabhuvashwin/RobotPathNavigation.git" class="icons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="project-item">
+              <div class="project-heading">
+                <img src="img/ml.png" alt="ML">
+                <h3>Supervised Learning</h3>
+              </div>
+              <hr>
+              <div class="project-desc">
+                <p>Conducted predictive analysis by using machine learning algorithms
+                  on different datasets. Implemented machine learning algorithms like
+                  Neural Networks, Boosting, Support Vector Machines, K-nearest neighbours
+                  and Naïve Bayes. Developed using R, Python, Tableau.
+                </p>
+              </div>
+              <div class="project-links">
+                <a href="#" class="icons" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              </div>
+            </article>
+            <article class="project-item">
+              <div class="project-heading">
+                <img src="img/hcl.png" alt="HCL">
+                <h3>Document Correction Tool</h3>
+              </div>
+              <hr>
+              <div class="project-desc">
+                <p>Successfully designed and developed a tool which take an XML
+                  as input, and finds errors based on a set of user-defined rules.
+                  Considered a high value project under Six Sigma evaluation with
+                  savings up to 0.8 million USD. Saves 100+ man hours per week spent
+                  on manually checking the document for errors. Developed using: C#, Visual Studio, XML
+                </p>
+              </div>
+              <div class="project-links">
+
+              </div>
+            </article>
+            <article class="project-item">
+              <div class="project-heading">
+                <img src="img/hcl.png" alt="HCL">
+                <h3>Wincommand</h3>
+              </div>
+              <hr>
+              <div class="project-desc">
+                <p>Implemented a windows application which communicated
+                  with a hardware device connected to the computer through an RS-232 port.
+                  Successfully parsed the data flowing from the hardware device to
+                  display meaningful information to the user. Also allowed the user to
+                  interact with hardware by sending commands through the RS-232 port.
+                  Developed using: C#, Visual Studio, XML
+                </p>
+              </div>
+              <div class="project-links">
+
               </div>
             </article>
           </div>
