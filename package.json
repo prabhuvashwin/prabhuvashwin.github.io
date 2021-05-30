@@ -1,0 +1,44 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "repository": "https://github.com/prabhuvashwin/prabhuvashwin.github.io.git",
+  "author": "Ashwin V Prabhu <ashwinvprabhu@icloud.com>",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "clean": "rm dist/*.js",
+    "commit": "cz",
+    "build-dev": "webpack --mode development",
+    "build-prod": "webpack --mode production",
+    "start": "webpack serve --hot --mode development",
+    "p-check": "prettier --check ./src/**/*.ts",
+    "p-write": "prettier --write"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@babel/preset-react": "^7.13.13",
+    "@hot-loader/react-dom": "^17.0.1+4.13.0",
+    "babel-loader": "^8.2.2",
+    "commitizen": "^4.2.4",
+    "css-loader": "^5.2.6",
+    "cz-conventional-changelog": "^3.3.0",
+    "less": "^4.1.1",
+    "less-loader": "^9.0.0",
+    "prettier": "^2.3.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
