@@ -1,16 +1,21 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { hot } from "react-hot-loader/root";
+import { Splash } from "./component";
+import styles from "./styles.less";
 
-class App extends Component {
-  render() {
-    const { name } = this.props;
+const classNames = require("classnames/bind");
+const cx = classNames.bind(styles);
 
-    return (
-      <h1>
-        Hello {name}
-      </h1>
-    );
-  }
-}
+const App = () => {
+  return (
+    <>
+      <a href="#about" className={ cx("skipnav") }>Skip to main content</a>
+
+      <main>
+        <Splash />
+      </main>
+    </>
+  );
+};
 
 export default hot(App);
